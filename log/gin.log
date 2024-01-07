@@ -1,0 +1,9 @@
+[GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
+
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /chatroom/getMessage      --> go_im/controllers/chatroom.GetMessage (3 handlers)
+[GIN-debug] POST   /chatroom/sendMessage     --> go_im/controllers/chatroom.SendMessage (3 handlers)
+[GIN] 2024/01/06 - 17:00:46 | 200 |     65.1885ms |       127.0.0.1 | POST     "/chatroom/sendMessage"
